@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
+import "./brandStyles/styles/main.css"
+import "./brandStyles/styles/vendor/bootstrap.css"
+import "./brandStyles/styles/vendor/font-awesome.min.css"
+import "./brandStyles/styles/vendor/superslides.css"
+//import "./brandStyles/styles/vendor/owl.carousel.css"
+import "./brandStyles/styles/vendor/owl.transitions.css"
+import "./brandStyles/styles/vendor/flickity.min.css"
+//import "./brandStyles/styles/vendor/swipebox.min.css"
+import "./brandStyles/styles/vendor/TimeCircles.css"
+import Home from "./pages/Home"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Router>
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </Router>
       </div>
     );
   }
