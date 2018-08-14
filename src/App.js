@@ -10,7 +10,9 @@ import "./brandStyles/styles/vendor/owl.transitions.css"
 import "./brandStyles/styles/vendor/flickity.min.css"
 //import "./brandStyles/styles/vendor/swipebox.min.css"
 import "./brandStyles/styles/vendor/TimeCircles.css"
+
 import Home from "./pages/Home"
+
 
 class App extends Component {
   render() {

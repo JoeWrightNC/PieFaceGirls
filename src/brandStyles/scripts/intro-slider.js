@@ -1,5 +1,7 @@
 /* Intro Slider and Animate.css style */
 
+import jQuery from "jquery"
+
 (function( $ ) {
 
 	//Function to animate slider captions 

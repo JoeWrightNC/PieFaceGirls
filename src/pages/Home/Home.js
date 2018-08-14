@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import {Nav} from "../../components/sitewide"
+import {HomeNav} from "../../components/home"
+import {HomeVideo} from "../../components/home"
 
 export default class Home extends Component {
   state = {
@@ -9,8 +10,8 @@ export default class Home extends Component {
   render() {
     return (
       <body data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
-
-        <Nav />
+        <HomeVideo />
+        <HomeNav />
       </body>
     );
   }

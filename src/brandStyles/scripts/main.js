@@ -1,5 +1,9 @@
+import $ from "jquery"
+import jQuery from "jquery"
+//const audiojs = require("./vendor/audio.min.js")
+
 /* Loading */
-$(window).load(function() {
+$(window).on("load", function() {
   $(".spinner").delay(500).fadeOut();
   $("#mask").delay(500).fadeOut("slow");
   $("body").addClass("loaded");
@@ -7,10 +11,11 @@ $(window).load(function() {
 
 
 
+
 /*----------------------------------------------
 P L A Y E R   I N T R O
 ------------------------------------------------*/
-$(function() {
+/* $(function() {
 
   function loadAudio() {
     // Setup the player to autoplay the next track
@@ -84,7 +89,7 @@ $(function() {
     loadAudio();
   };
 
-});
+}); */
 
 if ($('#DateCountdown').length>0 ) {
   $(window).resize(function(){
@@ -125,7 +130,7 @@ $(document).ready(function(){
   /*----------------------------------------------
   I N T R O  S L I D E R
   ------------------------------------------------*/
-  $('#slides').superslides({
+  /* $('#slides').superslides({
     hashchange: false,
     animation: 'fade',
     play: 10000,
@@ -147,7 +152,7 @@ $(document).ready(function(){
 
   if ($('#owl-main-text').length>0 ) {
     slidertext();
-  };
+  }; */
 
   /*----------------------------------------------
   T W I T T E R
@@ -256,7 +261,7 @@ $(document).ready(function(){
 /*----------------------------------------------
 I S O T O P E
 ------------------------------------------------*/
-$(window).load(function(){
+$(window).on("load", function(){
   //ISOTOPE events
   var $container = $('.upevents').isotope({
     itemSelector: '.upevent',
@@ -289,6 +294,7 @@ $(window).load(function(){
   });
 
   // load more
+  let newItems
   $('#append').on( "click", function(e) {
     newItems = $('#more-items').appendTo('.thumbnails');
     $(".thumbnails").isotope('insert', newItems );
@@ -312,7 +318,7 @@ if(jQuery().parallax) {
 /*----------------------------------------------
 M E N U   A N C H O R S
 ------------------------------------------------*/
-$('a[href*=#]').on( "click", function(e) {
+/* $('a[href*=#]').on( "click", function(e) {
   if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
     var $target = $(this.hash);
     $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
@@ -326,7 +332,7 @@ $('a[href*=#]').on( "click", function(e) {
       return false;
     }
   }
-});
+}); */
 
 
 

@@ -1,3 +1,5 @@
+import $ from "jquery"
+
 var $actualnew= null;
 var openednew=false;
 $(".open-new").on( "click", function(e) {
