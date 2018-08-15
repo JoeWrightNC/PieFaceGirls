@@ -1,0 +1,83 @@
+.navFlex {
+  display:flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  float: none !important;
+  font-weight: bold !important;
+  color: black !important;
+  height:7vh !important;
+  margin: 0px !important;
+}
+
+#homeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieHome.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bioNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieBio.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#musicNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieMusic.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#galleryNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieGallery.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#blogNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieBlog.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#merchNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieMerch.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pressNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/piePress.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#epkNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieEPK.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contactNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieContact.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.whiteNavBGMain {
+  background-color:white !important;
+  height:auto;
+  width: auto;
+  padding: 0px !important;
+  margin-top:1.5vh !important;
+  opacity: .7;
+}

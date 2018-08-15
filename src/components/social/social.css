@@ -3,4 +3,5 @@
   justify-content: space-around !important;
   flex-wrap: wrap !important;
   align-items: stretch !important;
+  margin-bottom: 10vh !important;
 }
