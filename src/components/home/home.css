@@ -112,3 +112,11 @@
   left:30vw;
   z-index:100000;
 }
+
+#unmuteButton {
+
+  position: absolute;
+  top: 65vh;
+  right:5vw;
+  z-index:100001;
+}

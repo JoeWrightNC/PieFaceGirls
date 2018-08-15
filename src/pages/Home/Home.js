@@ -18,11 +18,11 @@ export default class Home extends Component {
         <HomeNav />
         <div className="container-fluid homeCont">
           <div className="row">
-            <div className="col-xs-6 col-md-6">
+            <div className="col-xs-12 col-sm-6">
               <BioShort />
               <SocialBar />
             </div>
-            <div className="col-xs-6 col-md-6>">
+            <div className="col-xs-6 col-sm-6>">
               <HomeDates />
             </div>
           </div>

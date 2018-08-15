@@ -11,6 +11,15 @@ export class HomeVideo extends Component {
 
     }
 
+    unMute() {
+      let video=document.getElementById("HomePlayer");
+      if(video.muted){
+        video.muted = false;
+      } else {
+        video.muted = true;
+      }
+    }
+
     render() {
         return (
             <section className="intro full-width full-height jIntro">
@@ -18,9 +27,10 @@ export class HomeVideo extends Component {
                 <div className="row">
                   <div className="col-md-12">
                     <div id="homeVidContainer">
-                      <video id="HomePlayer" controls autoPlay muted>
+                      <video id="HomePlayer" controls autoPlay muted loop>
                         <source src={homeVideo} type="video/mp4"/>
                       </video>
+                      <button id="unmuteButton" className="btn square icon" onClick={this.unMute}>sound</button>
                       <img id="homeTitle" src={pieTitle} alt="homeTitle" />
                     </div>
                   </div>
