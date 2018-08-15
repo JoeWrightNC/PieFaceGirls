@@ -1,7 +1,31 @@
 import React, { Component } from "react";
 import "./dates.css";
+import {eventDataPacket} from "../../dataPackets/dates"
 
-
+const eventIteration = eventDataPacket.map((event, index) =>
+  <li key={index}>
+    <div>
+      <p class="date-event">{event.dateDay} <span>{event.dateMonYear}</span></p>
+      <p class="name">
+        {event.lineup.map((artist, artistIndex) =>
+        <span key={artistIndex}>{artist}</span>
+        )}
+      </p>
+      <p class="venue">
+        venue
+        <span>{event.venue}</span>
+        <span>{event.venueLocation}</span>
+      </p>
+{/*       <p class="price">
+        tickets
+        <span>${event.ticketPrice}</span>
+      </p>
+      <p class="buy">
+        <a href={event.ticketLink} class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
+      </p> */}
+    </div>
+  </li>
+);
 
 export class HomeDates extends Component {
     state = {
@@ -13,145 +37,18 @@ export class HomeDates extends Component {
 
     render() {
         return (
-          <section class="section container-fluid full-width upcomming-events-list inverse-color">
-          <div class="">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <h4 class="upcomming-events-list-title montserrat extra-bold">upcoming events</h4>
+            <div className="row eventsRow upcomming-events-list inverse-color">
+              <div className="col-md-2"></div>
+              <div className="col-md-8">
+                <h4 className="upcomming-events-list-title montserrat extra-bold">upcoming events</h4>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
+              <div className="col-md-2"></div>
+              <div className="col-md-12">
                 <ul>
-                  <li>
-                    <div>
-                      <p class="date-event">21 <span>Jan'16</span></p>
-                      <p class="name">
-                        <span>Live show  New York</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim perferendis, doloremque esse.
-                      </p>
-                      <p class="venue">
-                        venue
-                        <span>Madison Square Garden</span>
-                      </p>
-                      <p class="price">
-                        tickets
-                        <span>$19</span>
-                      </p>
-                      <p class="buy">
-                        <a href="#" class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p class="date-event">25 <span>Jan'16</span></p>
-                      <p class="name">
-                        <span>Dj Set & performance Los Angeles</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim perferendis, doloremque esse.
-                      </p>
-                      <p class="venue">
-                        venue
-                        <span>Glam Club</span>
-                      </p>
-                      <p class="price">
-                        tickets
-                        <span>$19</span>
-                      </p>
-                      <p class="buy">
-                        <a href="#" class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <p class="date-event">01 <span>Feb'16</span></p>
-                      <p class="name">
-                        <span>Live Show  Boston</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim perferendis, doloremque esse.
-                      </p>
-                      <p class="venue">
-                        venue
-                        <span>Howard Theater</span>
-                      </p>
-                      <p class="price">
-                        tickets
-                        <span>$19</span>
-                      </p>
-                      <p class="buy">
-                        <a href="#" class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
-                      </p>
-                    </div>
-                  </li>
-
-                  <li class="more">
-                    <div>
-                      <p class="date-event">15 <span>Feb'16</span></p>
-                      <p class="name">
-                        <span>Dj Set & performance Los Angeles</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim perferendis, doloremque esse.
-                      </p>
-                      <p class="venue">
-                        venue
-                        <span>Sugar Night Club</span>
-                      </p>
-                      <p class="price">
-                        tickets
-                        <span>$19</span>
-                      </p>
-                      <p class="buy">
-                        <a href="#" class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
-                      </p>
-                    </div>
-                  </li>
-                  <li class="more">
-                    <div>
-                      <p class="date-event">24 <span>Feb'16</span></p>
-                      <p class="name">
-                        <span>Live Show London</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim perferendis, doloremque esse.
-                      </p>
-                      <p class="venue">
-                        venue
-                        <span>Monarch Theater</span>
-                      </p>
-                      <p class="price">
-                        tickets
-                        <span>$19</span>
-                      </p>
-                      <p class="buy">
-                        <a href="#" class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
-                      </p>
-                    </div>
-                  </li>
-                  <li class="more">
-                    <div>
-                      <p class="date-event">05 <span>Mar'16</span></p>
-                      <p class="name">
-                        <span>Live Show  New York</span>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab enim perferendis, doloremque esse.
-                      </p>
-                      <p class="venue">
-                        venue
-                        <span>Madison Square Garden</span>
-                      </p>
-                      <p class="price">
-                        tickets
-                        <span>$19</span>
-                      </p>
-                      <p class="buy">
-                        <a href="#" class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
-                      </p>
-                    </div>
-                  </li>
+                  {eventIteration}
                 </ul>
-                <p class="view-all-events">
-                  <a id="more-events" href="#" class="btn square">View all events</a>
-                </p>
               </div>
             </div>
-          </div>
-        </section>
         );
     }
 }

@@ -3,6 +3,7 @@ import {HomeNav} from "../../components/home"
 import {HomeVideo} from "../../components/home"
 import {BioShort} from "../../components/bio"
 import {SocialBar} from "../../components/social"
+import {HomeDates} from "../../components/dates"
 import "./homePage.css"
 
 export default class Home extends Component {
@@ -17,9 +18,12 @@ export default class Home extends Component {
         <HomeNav />
         <div className="container-fluid homeCont">
           <div className="row">
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-6 col-md-6">
               <BioShort />
               <SocialBar />
+            </div>
+            <div className="col-xs-6 col-md-6>">
+              <HomeDates />
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./home.css";
 import homeVideo from "../../brandStyles/images/homeVideo.mp4"
+import pieTitle from "../../brandStyles/images/pieTitle.png"
 
 export class HomeVideo extends Component {
     state = {
@@ -20,6 +21,7 @@ export class HomeVideo extends Component {
                       <video id="HomePlayer" controls autoPlay>
                         <source src={homeVideo} type="video/mp4"/>
                       </video>
+                      <img id="homeTitle" src={pieTitle} alt="homeTitle" />
                     </div>
                   </div>
                 </div>

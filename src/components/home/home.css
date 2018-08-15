@@ -103,3 +103,12 @@
   margin-top:1.5vh !important;
   opacity: .7;
 }
+
+#homeTitle {
+  width:40vw;
+  height:auto;
+  position: absolute;
+  top: 55vh;
+  left:30vw;
+  z-index:100000;
+}
