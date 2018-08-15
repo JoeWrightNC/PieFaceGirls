@@ -14,9 +14,9 @@ export class SocialBar extends Component {
     render() {
         return (
           <div className="row social socialBar">
-            <a href="#"><img src={fbLogo} alt="logo01"/></a>
-            <a href="#"><img src={instaLogo} alt="logo02"/></a>
-            <a href="#"><img src={twLogo} alt="logo04"/></a>
+            <a href="https://www.facebook.com/piefacegirls/"><img src={fbLogo} alt="logo01"/></a>
+            <a href="https://www.instagram.com/piefacegirls/"><img src={instaLogo} alt="logo02"/></a>
+            <a href="https://twitter.com/piefacegirls?lang=en"><img src={twLogo} alt="logo04"/></a>
           </div>
         );
     }

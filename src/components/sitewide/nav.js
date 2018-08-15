@@ -14,31 +14,30 @@ export class Nav extends Component {
     render() {
         return (
           <header id="jHeader" class="overflow-video">
-          <nav class="navbar navbar-default">
-      
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Desplegar navegación</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#anchor00"><img src="images/logo-white.png" alt="logo" /></a>
-            </div>
-      
-            <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#anchor00">Home</a></li>
-                <li><a href="#anchor03">DISCOGRAPHY</a></li>
-                <li><a href="#anchor04">ABOUT</a></li>
-                <li><a href="#anchor05">TOUR DATES</a></li>
-                <li><a href="#anchor06">GALLERY</a></li>
-                <li><a href="#anchor07">NEWS</a></li>
-                <li><a href="#anchor08">CONTACT</a></li>
-              </ul>
-            </div>
-      
-          </nav>
+            <nav className="navbar navbar-default tallNav">
+              <div className="navbar-header">
+                <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span className="sr-only">Desplegar navegación</span>
+                  <span className="icon-bar"></span>
+                  <span className="icon-bar"></span>
+                  <span className="icon-bar"></span>
+                </button>
+              </div>
+
+              <div className="collapse navbar-collapse navbar-ex1-collapse tallNav2" id="navbar-muziq">
+                <ul className="nav navbar-nav navFlex">
+                  <li id="homeNavIcon"><a className="whiteNavBGMain" href="/home">HOME</a></li>
+                  <li id="bioNavIcon"><a className="whiteNavBGMain" href="/bio">BIO</a></li>
+                  <li id="musicNavIcon"><a className="whiteNavBGMain" href="/music">MUSIC</a></li>
+                  <li id="galleryNavIcon"><a className="whiteNavBGMain" href="/gallery">GALLERY</a></li>
+                  <li id="blogNavIcon"><a className="whiteNavBGMain" href="/blog">BLOG</a></li>
+                  <li id="merchNavIcon"><a className="whiteNavBGMain" href="/merch">MERCH</a></li>
+                  <li id="pressNavIcon"><a className="whiteNavBGMain" href="/press">PRESS</a></li>
+                  <li id="epkNavIcon"><a className="whiteNavBGMain" href="/epk">EPK</a></li>
+                  <li id="contactNavIcon"><a className="whiteNavBGMain" href="/contact">CONTACT</a></li>
+                </ul>
+              </div>
+            </nav>
         </header>
         );
     }
