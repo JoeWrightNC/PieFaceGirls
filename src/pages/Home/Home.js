@@ -4,6 +4,7 @@ import {HomeVideo} from "../../components/home"
 import {BioShort} from "../../components/bio"
 import {SocialBar} from "../../components/social"
 import {HomeDates} from "../../components/dates"
+import {Footer} from "../../components/sitewide"
 import "./homePage.css"
 
 export default class Home extends Component {
@@ -27,6 +28,7 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     );
   }

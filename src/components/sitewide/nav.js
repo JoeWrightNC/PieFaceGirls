@@ -26,7 +26,7 @@ export class Nav extends Component {
 
               <div className="collapse navbar-collapse navbar-ex1-collapse tallNav2" id="navbar-muziq">
                 <ul className="nav navbar-nav navFlex">
-                  <li id="homeNavIcon"><a className="whiteNavBGMain" href="/home">HOME</a></li>
+                  <li id="homeNavIcon"><a className="whiteNavBGMain" href="/">HOME</a></li>
                   <li id="bioNavIcon"><a className="whiteNavBGMain" href="/bio">BIO</a></li>
                   <li id="musicNavIcon"><a className="whiteNavBGMain" href="/music">MUSIC</a></li>
                   <li id="galleryNavIcon"><a className="whiteNavBGMain" href="/gallery">GALLERY</a></li>

@@ -12,6 +12,7 @@ import "./brandStyles/styles/vendor/flickity.min.css"
 import "./brandStyles/styles/vendor/TimeCircles.css"
 
 import Home from "./pages/Home"
+import Bio from "./pages/Bio"
 
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/bio" component={Bio} />
           </Switch>
         </Router>
       </div>
