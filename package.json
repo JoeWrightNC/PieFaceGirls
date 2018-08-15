@@ -8,8 +8,11 @@
     "popper.js": "^1.14.4",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "react-responsive-embed": "^2.1.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
+    "react-video-players": "^0.1.11",
+    "react-yt": "^0.1.2",
     "yt-player": "^3.1.0"
   },
   "scripts": {

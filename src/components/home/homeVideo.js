@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./home.css";
-
-
+import homeVideo from "../../brandStyles/images/homeVideo.mp4"
 
 export class HomeVideo extends Component {
     state = {
@@ -13,12 +12,14 @@ export class HomeVideo extends Component {
 
     render() {
         return (
-            <section class="intro full-width full-height jIntro" id="anchor00">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="playerVideo" data-property="{videoURL:'MeyI1X-Pl9s',showControls:false,containment:'self',autoPlay:true, mute:false, startAt:0,opacity:1,ratio:'4/3', addRaster:true}">
-                      <a href="#" class="play-video">Play/Pause</a>
+            <section className="intro full-width full-height jIntro">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-12">
+                    <div id="homeVidContainer">
+                      <video id="HomePlayer" controls autoPlay>
+                        <source src={homeVideo} type="video/mp4"/>
+                      </video>
                     </div>
                   </div>
                 </div>

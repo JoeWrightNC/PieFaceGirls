@@ -1,3 +1,105 @@
-#bg-image3 {
-  background: url('../../brandStyles/images/demo/cover-player.jpg') no-repeat center;
+
+.tallNav {
+  height:10vh !important;
+}
+
+.tallNav2 {
+  height:8vh !important;
+  margin-top:1vh !important;
+}
+
+#HomePlayer {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+#homeVidContainer {
+  max-height: 65vh !important;
+  height:auto;
+}
+
+.navHomeFlex {
+  display:flex !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important;
+  align-items: stretch !important;
+  float: none !important;
+  font-weight: bold !important;
+  color: black !important;
+  height:7vh !important;
+  margin: 0px !important;
+}
+
+#homeHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieHome.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#bioHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieBio.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#musicHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieMusic.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#galleryHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieGallery.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#blogHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieBlog.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#merchHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieMerch.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pressHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/piePress.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#epkHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieEPK.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#contactHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/pieContact.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.whiteNavBG {
+  background-color:white !important;
+  height:auto;
+  width: auto;
+  padding: 0px !important;
+  margin-top:1.5vh !important;
+  opacity: .7;
 }

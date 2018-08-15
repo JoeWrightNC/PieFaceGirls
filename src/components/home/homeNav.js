@@ -13,27 +13,28 @@ export class HomeNav extends Component {
 
     render() {
         return (
-          <nav class="navbar navbar-default">
+          <nav className="navbar navbar-default tallNav">
       
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Desplegar navegación</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span className="sr-only">Desplegar navegación</span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
+                <span className="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="#anchor00"><img src="images/logo-white.png" alt="logo" /></a>
             </div>
       
-            <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#anchor00">Home</a></li>
-                <li><a href="#anchor03">DISCOGRAPHY</a></li>
-                <li><a href="#anchor04">ABOUT</a></li>
-                <li><a href="#anchor05">TOUR DATES</a></li>
-                <li><a href="#anchor06">GALLERY</a></li>
-                <li><a href="#anchor07">NEWS</a></li>
-                <li><a href="#anchor08">CONTACT</a></li>
+            <div className="collapse navbar-collapse navbar-ex1-collapse tallNav2" id="navbar-muziq">
+              <ul className="nav navbar-nav navHomeFlex">
+                <li id="homeHomeNavIcon"><a className="whiteNavBG" href="/home">HOME</a></li>
+                <li id="bioHomeNavIcon"><a className="whiteNavBG" href="/bio">BIO</a></li>
+                <li id="musicHomeNavIcon"><a className="whiteNavBG" href="/music">MUSIC</a></li>
+                <li id="galleryHomeNavIcon"><a className="whiteNavBG" href="/gallery">GALLERY</a></li>
+                <li id="blogHomeNavIcon"><a className="whiteNavBG" href="/blog">BLOG</a></li>
+                <li id="merchHomeNavIcon"><a className="whiteNavBG" href="/merch">MERCH</a></li>
+                <li id="pressHomeNavIcon"><a className="whiteNavBG" href="/press">PRESS</a></li>
+                <li id="epkHomeNavIcon"><a className="whiteNavBG" href="/epk">EPK</a></li>
+                <li id="contactHomeNavIcon"><a className="whiteNavBG" href="/contact">CONTACT</a></li>
               </ul>
             </div>
       
