@@ -13,7 +13,7 @@ export class Nav extends Component {
 
     render() {
         return (
-          <header id="jHeader" class="overflow-video">
+          <header id="jHeader" className="overflow-video">
             <nav className="navbar navbar-default tallNav">
               <div className="navbar-header">
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

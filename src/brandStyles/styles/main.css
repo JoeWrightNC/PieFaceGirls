@@ -2636,8 +2636,12 @@ h2.title:after {
 }
 
 .bg-blog {
-  background: url("../images/demo/blog/bg-blog.jpg") no-repeat center;
+  background: url("../images/blogBanner.jpg") no-repeat center;
   background-size: cover;
+}
+
+.shadowDrop {
+  text-shadow: black 2px 1px !important;
 }
 
 .bg-blog .primary-title {

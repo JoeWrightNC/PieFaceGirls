@@ -13,6 +13,7 @@ import "./brandStyles/styles/vendor/TimeCircles.css"
 
 import Home from "./pages/Home"
 import Bio from "./pages/Bio"
+import Blog from "./pages/Blog"
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/bio" component={Bio} />
+            <Route exact path="/blog" component={Blog} />
           </Switch>
         </Router>
       </div>
