@@ -18,7 +18,7 @@ export class HomeVideo extends Component {
                 <div className="row">
                   <div className="col-md-12">
                     <div id="homeVidContainer">
-                      <video id="HomePlayer" controls autoPlay>
+                      <video id="HomePlayer" controls autoPlay muted>
                         <source src={homeVideo} type="video/mp4"/>
                       </video>
                       <img id="homeTitle" src={pieTitle} alt="homeTitle" />
