@@ -5,23 +5,23 @@ import {eventDataPacket} from "../../dataPackets/dates"
 const eventIteration = eventDataPacket.map((event, index) =>
   <li key={index}>
     <div>
-      <p class="date-event">{event.dateDay} <span>{event.dateMonYear}</span></p>
-      <p class="name">
+      <p className="date-event">{event.dateDay} <span>{event.dateMonYear}</span></p>
+      <p className="name">
         {event.lineup.map((artist, artistIndex) =>
         <span key={artistIndex}>{artist}</span>
         )}
       </p>
-      <p class="venue">
+      <p className="venue">
         venue
         <span>{event.venue}</span>
         <span>{event.venueLocation}</span>
       </p>
-{/*       <p class="price">
+{/*       <p className="price">
         tickets
         <span>${event.ticketPrice}</span>
       </p>
-      <p class="buy">
-        <a href={event.ticketLink} class="btn square icon"><i class="fa fa-ticket"></i> buy ticket</a>
+      <p className="buy">
+        <a href={event.ticketLink} className="btn square icon"><i className="fa fa-ticket"></i> buy ticket</a>
       </p> */}
     </div>
   </li>
