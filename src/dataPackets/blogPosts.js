@@ -7,7 +7,8 @@ export const blogDataPacket = [
     blogTitle: "Groove in the Garden",
     blogParagraphs: [
       "We're playing Groove in the Garden 2018 next month. DO U HAVE YR TICKETS!?  Lots of local beer, local crafts, and local music in one of the most relaxing spots around town!",
-      "Byeeeeeeeeee"    ]
+      "Byeeeeeeeeee"    
+    ]
   },
   {
     dateDay: "6",
@@ -17,7 +18,8 @@ export const blogDataPacket = [
     blogTitle: "We're Playing RADfest!",
     blogParagraphs: [
       "RADfest lineup just dropped and it's gonna be cooooool. Catch us at the Grey Eagle in Asheville this October with Diet Cig, Nest Egg, Indigo De Souza, and more. (We're also sort of in love with Jules Sullivan, wherever she is)",
-      "Score some tickets here: https://www.ticketfly.com/event/1744598-radfest-asheville/"    ]
+      "Score some tickets here: https://www.ticketfly.com/event/1744598-radfest-asheville/"    
+    ]
   },
   {
     dateDay: "30",

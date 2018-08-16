@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./blog.css";
+import "./press.css";
 
 
 
-export class BlogHeader extends Component {
+export class PressHeader extends Component {
     state = {
     };
 
@@ -18,8 +18,8 @@ export class BlogHeader extends Component {
               <div className="row">
                 <div className="col-md-12">
                   <div className="text-center">
-                    <h1 className="primary-title shadowDrop">Blog</h1>
-                    <h2 className="subtitle-text">Latest Pie Face Girls News</h2>
+                    <h1 className="primary-title shadowDrop">Press</h1>
+                    <h2 className="subtitle-text">Press Reviews of Pie Face Girls</h2>
                   </div>
                 </div>
               </div>
