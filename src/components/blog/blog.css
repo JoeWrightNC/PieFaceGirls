@@ -1,3 +1,7 @@
-.shadowDrop {
-  text-shadow: black 2px 1px !important;
+.whiteBlog {
+  background-color: white !important;
+}
+
+.inverseBlog {
+  background-color: #0a0a0a !important;
 }

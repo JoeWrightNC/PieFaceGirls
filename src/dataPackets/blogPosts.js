@@ -6,7 +6,7 @@ export const blogDataPacket = [
     author: "Dani",
     blogTitle: "Groove in the Garden",
     blogParagraphs: [
-      "We're playing Groove in the Garden 2018 next month. DO U HAVE YR TICKETS!? Here's a lil vid of 'Get on the Floor' from All Go West Fest last month: https://www.facebook.com/steven.howard.526/videos/10215208659865751/ . And if you're a REAL fan, you can listen to some witty commentary about the song on the Holy Crap Records podcast here: http://www.hlycrp.com/?p=296",
+      "We're playing Groove in the Garden 2018 next month. DO U HAVE YR TICKETS!?  Lots of local beer, local crafts, and local music in one of the most relaxing spots around town!",
       "Byeeeeeeeeee"    ]
   },
   {
