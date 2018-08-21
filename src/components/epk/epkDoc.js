@@ -13,6 +13,7 @@ export class EPKDoc extends Component {
     render() {
         return (
           <div className="inverseBlog container-fluid">
+            <h2 className="title inverse headerGap">Electronic Press Kit</h2>
             <div className="row">
               <div className="col-xs-12 col-md-12">
                 <img src={epkPNG} alt="epk" id="epkImg"/>

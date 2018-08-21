@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import {HomeNav} from "../../components/home"
+import {Nav} from "../../components/sitewide"
 import {Footer} from "../../components/sitewide"
-import {BlogHeader} from "../../components/blog"
 import {BlogEntries} from "../../components/blog"
 
 export default class Blog extends Component {
@@ -12,8 +11,7 @@ export default class Blog extends Component {
   render() {
     return (
       <div data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
-         <BlogHeader />
-         <HomeNav />
+         <Nav />
          <BlogEntries />
          <Footer />
       </div>

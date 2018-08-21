@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import {HomeNav} from "../../components/home"
+import {Nav} from "../../components/sitewide"
 import {Footer} from "../../components/sitewide"
-import {PressHeader} from "../../components/press"
 import {PressEntries} from "../../components/press"
 
 export default class Press extends Component {
@@ -12,8 +11,7 @@ export default class Press extends Component {
   render() {
     return (
       <div data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
-        <PressHeader />
-        <HomeNav />
+        <Nav />
         <PressEntries />
         <Footer />
       </div>

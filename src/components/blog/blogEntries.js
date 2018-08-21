@@ -38,7 +38,7 @@ export class BlogEntries extends Component {
           <div className="inverseBlog">
           <div className="section blog list-posts" id="anchor07">
           <div className="container">
-      
+          <h2 className="title inverse headerGap">Blog</h2>
             <div className="voffset210"></div>
             <div className="row">
               <div className="col-md-12">
