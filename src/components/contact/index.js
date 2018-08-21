@@ -1,0 +1,1 @@
+export { ContactSect } from "./contact";

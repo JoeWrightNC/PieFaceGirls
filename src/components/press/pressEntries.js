@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./press.css";
 import {pressDataPacket} from "../../dataPackets/pressCoverage.js"
 
-console.log(pressDataPacket)
 const PressIteration = pressDataPacket.map((press, index) =>
 <article className="post-item whiteBlog" key={index}>
   <div className="row">

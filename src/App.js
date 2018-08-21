@@ -14,6 +14,7 @@ import Bio from "./pages/Bio"
 import Blog from "./pages/Blog"
 import Press from "./pages/Press"
 import EPK from "./pages/EPK"
+import Contact from "./pages/Contact"
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/press" component={Press} />
             <Route exact path="/epk" component={EPK} />
+            <Route exact path="/contact" component={Contact} />
           </Switch>
         </Router>
       </div>
