@@ -1,0 +1,14 @@
+.carouselCorrector {
+  width:auto !important;
+}
+
+.whiteyDisco {
+  background-color:white !important;
+}
+
+.discoContainerFlex {
+  display: flex !important;
+  justify-content: center !important;
+  margin-top:15vh !important;
+
+}

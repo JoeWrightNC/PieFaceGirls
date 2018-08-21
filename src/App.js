@@ -15,6 +15,7 @@ import Blog from "./pages/Blog"
 import Press from "./pages/Press"
 import EPK from "./pages/EPK"
 import Contact from "./pages/Contact"
+import Music from "./pages/Music"
 
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
             <Route exact path="/press" component={Press} />
             <Route exact path="/epk" component={EPK} />
             <Route exact path="/contact" component={Contact} />
+            <Route exact path ="/music" component={Music} />
           </Switch>
         </Router>
       </div>

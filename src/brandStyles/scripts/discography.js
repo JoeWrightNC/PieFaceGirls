@@ -1,5 +1,9 @@
-var $actual= null;
-var opened=false;
+import $ from "jquery"
+import * as audiojs from "./vendor/audio.min.js"
+
+let $actual= null;
+let opened=false;
+let first;
 
 $(".open-disc").on( "click", function(e) {
   open($(this).data('url'));
