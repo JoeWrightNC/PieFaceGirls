@@ -15,7 +15,7 @@ export class Footer extends Component {
         return (
           <footer>
             <div class="container">
-              <p class="copy">© 2017. All Rights Reserved. Designed by JellyThemes</p>
+              <p class="copy">© 2018. All Rights Reserved.</p>
               <ul class="menu-footer">
                 <li><a href="/">home</a></li>
                 <li><a href="/bio">bio</a></li>
