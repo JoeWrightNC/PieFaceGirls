@@ -1,0 +1,31 @@
+.playerCont {
+  width:80vw !important;
+  padding-top: 10vh !important;
+  display:flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.playStateImg {
+  padding-top: 2vh;
+  height:5vh;
+  width:auto;
+  margin-left:7.5vw;
+}
+
+.playerControls {
+  background-color: #161616;
+  color: white !important;
+  border-radius: 5px 5px 5px 5px;
+  margin-bottom:5vh !important;
+}
+
+.rowFixa {
+  width: 100% !important;
+}
+
+@media (min-width: 1400px) {
+  .playerCont {
+    width:90vw !important;
+  }
+}

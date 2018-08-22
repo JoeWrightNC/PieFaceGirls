@@ -5,14 +5,16 @@ import firstImg from "../../../brandStyles/images/albums/first.jpg"
 import trackOne from "../../../brandStyles/sounds/firstTracks/01.mp3"
 import trackTwo from "../../../brandStyles/sounds/firstTracks/02.mp3"
 import trackThree from "../../../brandStyles/sounds/firstTracks/03.mp3"
-
-
+import trackFour from "../../../brandStyles/sounds/firstTracks/04.mp3"
+import playImg from "../../../brandStyles/images/playImg.png"
+import pauseImg from "../../../brandStyles/images/pauseImg.png"
 
 
 export class FirstAlbum extends Component {
     state = {
-      playing: false,
-      source: trackOne
+      playing: true,
+      source: trackOne,
+      nowPlaying: "Fuck You, I'm Pretty"
     };
 
     constructor(props) {
@@ -22,12 +24,18 @@ export class FirstAlbum extends Component {
       this.handlePause = this.handlePause.bind(this)
     }
 
-    handleSwap(newSrc) {
-      // Just switch back and forth between 0 and 1
+    handleSwap(newSrc, newSrcStr) {
       this.setState({source: newSrc})
-      this.setState({
-        playing: true
-      })
+      this.setState({playing: true})
+      if (newSrcStr === "trackOne") {
+        this.setState({nowPlaying:"Fuck You, I'm Pretty"})
+      } else if (newSrcStr === "trackTwo") {
+        this.setState({nowPlaying:"Get On The Floor"})
+      } else if (newSrcStr === "trackThree") {
+        this.setState({nowPlaying:"Oh-Piss"})
+      } else if (newSrcStr === "trackFour") {
+        this.setState({nowPlaying:"The Runs"})
+      }
     }
   
     handlePlay () {
@@ -47,10 +55,20 @@ export class FirstAlbum extends Component {
     }
 
     render() {
+        let PlayState = this.state.playing
+        let PlayerCTRL
+        if (PlayState === true) {
+          PlayerCTRL =
+          <img src={pauseImg} alt="pause" onClick={this.handlePause} className="playStateImg"/>
+        }
+        else {
+          PlayerCTRL = 
+          <img src={playImg} alt="play" onClick={this.handlePlay} className="playStateImg"/>
+        }
         return (
-          <div className="container">
+          <div className="container playerCont">
             <div className="voffset90"></div>
-            <div className="row">
+            <div className="row rowFixa">
               <div className="col-md-4">
                 <div className="info-album">
                   <div className="cover">
@@ -61,17 +79,35 @@ export class FirstAlbum extends Component {
                   <div className="voffset20"></div>
                   <p className="description">some sort of album bio type info here.  release year, some notes on it, w/e or nothing really </p>
                   <p className="buyalbum">
-                    <a href="#" className="btn square inverse icon">buy album</a>
+                    <a href="https://www.apple.com/itunes/?cid=OAS-US-DOMAINS-itunes.com" className="btn square inverse icon">buy album</a>
                   </p>
                   <ul className="links">
-                    <li><a href="#">iTunes</a></li>
-                    <li><a href="#">band camp</a></li>
-                    <li><a href="#">other</a></li>
+                    <li><a href="https://www.apple.com/itunes/?cid=OAS-US-DOMAINS-itunes.com">iTunes</a></li>
+                    <li><a href="https://bandcamp.com">BandCamp</a></li>
+                    <li><a href="https://soundcloud.com">Soundcloud</a></li>
+                    <li><a href="https://reverb.com">Reverb</a></li>
                   </ul>
                   <div className="voffset80"></div>
                 </div>
               </div>
               <div className="col-md-8">
+                <div className="row playerControls">
+                  <div className="col-md-8">
+                    <div>
+                      <div className="nowPlaying">
+                        <div className="track-info">
+                          <p className="track-album">Currently Playing:</p>
+                          <p className="track-title">{this.state.nowPlaying}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <a>
+                      {PlayerCTRL}
+                    </a>
+                  </div>
+                </div>
                 <div className="disc-tracklist">
                     <ReactHowler
                       playing={this.state.playing}
@@ -79,7 +115,7 @@ export class FirstAlbum extends Component {
                     />
                     <ol className="playlist0">
                       <li>
-                        <a onClick={() => this.handleSwap(trackOne)}>
+                        <a onClick={() => this.handleSwap(trackOne, "trackOne")}>
                           <div className="track-info">
                             <p className="track-title">Fuck You, I'm Pretty</p>
                             <p className="track-album">First | Pie Face Girls</p>
@@ -87,7 +123,7 @@ export class FirstAlbum extends Component {
                           </a>
                       </li>
                       <li>
-                      <a onClick={() => this.handleSwap(trackTwo)}>
+                      <a onClick={() => this.handleSwap(trackTwo, "trackTwo")}>
                           <div className="track-info">
                             <p className="track-title">Get On The Floor</p>
                             <p className="track-album">First | Pie Face Girls</p>
@@ -95,7 +131,7 @@ export class FirstAlbum extends Component {
                         </a>
                       </li>
                       <li>
-                      <a onClick={() => this.handleSwap(trackThree)}>
+                      <a onClick={() => this.handleSwap(trackThree, "trackThree")}>
                           <div className="track-info">
                             <p className="track-title">Oh-Piss</p>
                             <p className="track-album">First | Pie Face Girls</p>
@@ -103,7 +139,7 @@ export class FirstAlbum extends Component {
                         </a>
                       </li>
                       <li>
-                      <a onClick={() => this.handleSwap(trackOne)}>
+                      <a onClick={() => this.handleSwap(trackFour, "trackFour")}>
                           <div className="track-info">
                             <p className="track-title">The Runs</p>
                             <p className="track-album">First | Pie Face Girls</p>
