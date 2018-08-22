@@ -17,7 +17,8 @@ export class NoMatch extends Component {
             <div className="row">
               <div className="col-xs-12 col-md-12">
               <h2 className="title inverse headerGap">404 | The Page Was Not Found</h2>
-                <img src={noMatchImg} alt="epk" id="epkImg"/>
+              <br />
+                <img src={noMatchImg} alt="404" id="noMatchImg"/>
               </div>
             </div>
             <div className="voffset85"></div>
