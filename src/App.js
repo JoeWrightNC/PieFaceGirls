@@ -16,7 +16,7 @@ import Press from "./pages/Press"
 import EPK from "./pages/EPK"
 import Contact from "./pages/Contact"
 import Music from "./pages/Music"
-
+import NoMatch from "./pages/NoMatch"
 
 class App extends Component {
   render() {
@@ -31,6 +31,7 @@ class App extends Component {
             <Route exact path="/epk" component={EPK} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path ="/music" component={Music} />
+            <Route component={NoMatch} />
           </Switch>
         </Router>
       </div>
