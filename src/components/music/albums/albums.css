@@ -18,6 +18,9 @@
   color: white !important;
   border-radius: 5px 5px 5px 5px;
   margin-bottom:5vh !important;
+  font-family: "cousine", monospace !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 
 .rowFixa {
