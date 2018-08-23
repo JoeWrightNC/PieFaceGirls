@@ -1,0 +1,13 @@
+.galleryTile {
+  max-width:23vw !important;
+  max-height:30vh !important;
+  margin-top:5vh !important;
+  padding-right:1.5vw !important;
+  padding-left:1.5vw !important;
+}
+
+.galleryClass {
+  margin-top:5vh !important;
+  margin-right:4vw !important;
+  margin-left:4vw !important;
+}
