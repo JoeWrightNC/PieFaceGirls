@@ -1,0 +1,33 @@
+.vidTitles {
+  font-family: "cousine", monospace !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-top: 2vh;
+  padding-bottom:2vh;
+  color:white;
+}
+
+.vidModal {
+  width:100vw !important;
+  height:100vh !important;
+  background-color:black !important;
+  display: flex;
+  align-content: center;
+}
+
+.modalVideo {
+  margin:auto;
+  width:50vw;
+  height:auto;
+  background-color:black !important;
+
+}
+
+.videoTile {
+  max-width:23vw !important;
+  max-height:30vh !important;
+  margin-top:5vh !important;
+  margin-bottom:5vh !important;
+  padding-right:1.5vw !important;
+  padding-left:1.5vw !important;
+}

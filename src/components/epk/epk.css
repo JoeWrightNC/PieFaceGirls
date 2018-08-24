@@ -1,11 +1,3 @@
-#epkImg {
-  width: 70vw;
-  margin-right:15vw;
-  margin-left:15vw;
-  margin-top:20vw;
-  margin-bottom:20vw;
-}
-
 .epkBtn {
   border: 2px solid transparent;
   border-radius: 0px;
@@ -16,4 +8,259 @@
 
 .headerGap {
   padding-top:25vh;
+}
+
+.relativeContainer {
+  position:relative;
+}
+
+#epkBigBody {
+  width: 70vw;
+  margin-right:15vw;
+  margin-left:15vw;
+  margin-top:20vh;
+  margin-bottom:20vh;
+  z-index:10;
+  background-color:white;
+}
+
+.epkTextHeader {
+  position: absolute;
+  bottom: 126vh;
+  left: 21vw;
+  background-color: black;
+  color: white;
+  height: 20vh;
+  width:60vw;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.epkText {
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 8.5px;
+  color: white;
+  font-size: 10vh;
+  line-height: 30px;
+}
+
+.epkBlockOne {
+  width:70vw;
+  height:30vh;
+  background-color:white;
+  display:flex;
+  justify-content: center;
+  text-align: center
+}
+
+.epkGenText {
+  font-family: "cousine", monospace;
+  font-size: 2.5vh;
+  font-weight: 400;
+  padding-top:15vh;
+  padding-right:5vw;
+  padding-left:5vw;
+}
+
+.iconBanner {
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  height:25vh;
+  width:70vw;
+  background-color:white;
+}
+
+.epkIcons {
+  height:20vh;
+  width:20vh;
+  margin-top:2.5vh;
+  margin-right:1.5vw;
+  margin-left:1.5vw;
+}
+
+.epkBlockTwo {
+  width:70vw;
+  height:40vh;
+  background-color:white;
+  display:flex;
+  justify-content: center;
+  text-align: center
+}
+
+.onlineMusicBlock {
+  height:40vh;
+  width:35vw;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4.20px;
+  color: black;
+  font-size: 5vh;
+  line-height: 30px;
+  border-top: 2vh;
+  border-bottom:2vh;
+  border-color: black;
+  border-style:solid;
+}
+
+.onlineMusHeader {
+  padding-top:2.5vh;
+}
+
+.onlineMusText {
+  padding-top:2.5vh;
+  color:black !important;
+}
+
+.playedWithBlock {
+  height:40vh;
+  width:35vw;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4.20px;
+  background-color:black;
+  color: white;
+  font-size: 5vh;
+  line-height: 30px;
+  border-top: 2vh;
+  border-bottom:2vh;
+  border-color: black;
+  border-style:solid;
+}
+
+.playedWithHeader {
+  padding-top:2.5vh;
+}
+
+.playedWithText {
+  padding-top:2.5vh;
+  font-size:2vh !important;
+  letter-spacing: .3vw !important;
+  font-weight:200 !important;
+  padding-right:1vw;
+  padding-left:1vw;
+}
+
+.epkBlockThree {
+  width:70vw;
+  height:10vh;
+  background-color:white;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center
+}
+
+.onlinePressBlock {
+
+  display:inline;
+}
+
+.onlinePressHeader {
+  padding-top:2.5vh;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 4.20px;
+  color: black;
+  font-size: 5vh;
+  line-height: 30px;
+}
+
+.onlinePressText {
+  padding-top:2.5vh;
+  color:black !important;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.40px;
+  color: black;
+  font-size: 3vh;
+  line-height: 30px;
+  width:auto !important;
+}
+
+.epkBlockFour {
+  background-color:white;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.40px;
+  color: black;
+  font-size: 3vh;
+}
+
+.onlineBlogs {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.onlineBlogsText {
+  color:black !important;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.40px;
+  color: black;
+  font-size: 2vh;
+  line-height: 30px;
+  width:auto !important;
+}
+
+.onlineBlogsText2 {
+  color:black !important;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.40px;
+  color: black;
+  font-size: 3vh;
+  line-height: 30px;
+  width:auto !important;
+  padding-top:2vh;
+}
+
+.onlineBlogsText3 {
+  color:black !important;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.40px;
+  color: black;
+  font-size: 2vh;
+  line-height: 30px;
+  width:auto !important;
+  padding-top:2vh;
+}
+
+.epkBlockFive {
+  background-color:white;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2.40px;
+  color: black;
+  font-size: 3vh;
+  margin-top:-2vh;
+  padding-bottom:1vh;
+}
+
+.dontHov {
+  color:black !important;
 }

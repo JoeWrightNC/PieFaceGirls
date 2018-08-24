@@ -62,7 +62,7 @@ export class Gallery extends Component {
 
     return (
       <section className="section homeCont">
-        <h2 className="title inverse headerGap">Gallery</h2>
+        <h2 className="title inverse headerGap">Photos</h2>
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-12">

@@ -31,7 +31,14 @@
   background-position: center;
 }
 
-#galleryNavIcon {
+#photosNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/piePhotos.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#videosNavIcon {
   background-image: url("../../brandStyles/images/navLogos/pieGallery.png");
   background-size: 7vh auto;
   background-repeat: no-repeat;

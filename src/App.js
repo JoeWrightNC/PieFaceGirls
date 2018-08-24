@@ -18,6 +18,7 @@ import Contact from "./pages/Contact"
 import Music from "./pages/Music"
 import NoMatch from "./pages/NoMatch"
 import Gallery from "./pages/Gallery"
+import Videos from "./pages/Videos"
 
 class App extends Component {
   render() {
@@ -32,7 +33,8 @@ class App extends Component {
             <Route exact path="/epk" component={EPK} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path ="/music" component={Music} />
-            <Route exact path="/gallery" component={Gallery} />
+            <Route exact path="/photos" component={Gallery} />
+            <Route exact path="/videos" component={Videos} />
             <Route component={NoMatch} />
           </Switch>
         </Router>

@@ -29,7 +29,8 @@ export class Nav extends Component {
                   <li id="homeNavIcon"><a className="whiteNavBGMain" href="/">HOME</a></li>
                   <li id="bioNavIcon"><a className="whiteNavBGMain" href="/bio">BIO</a></li>
                   <li id="musicNavIcon"><a className="whiteNavBGMain" href="/music">MUSIC</a></li>
-                  <li id="galleryNavIcon"><a className="whiteNavBGMain" href="/gallery">GALLERY</a></li>
+                  <li id="photosNavIcon"><a className="whiteNavBGMain" href="/photos">PHOTOS</a></li>
+                  <li id="videosNavIcon"><a className="whiteNavBGMain" href="/videos">VIDEOS</a></li>
                   <li id="blogNavIcon"><a className="whiteNavBGMain" href="/blog">BLOG</a></li>
                   <li id="merchNavIcon"><a className="whiteNavBGMain" href="/merch">MERCH</a></li>
                   <li id="pressNavIcon"><a className="whiteNavBGMain" href="/press">PRESS</a></li>

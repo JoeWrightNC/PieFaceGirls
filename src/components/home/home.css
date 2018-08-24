@@ -53,8 +53,15 @@
   background-position: center;
 }
 
-#galleryHomeNavIcon {
+#videosHomeNavIcon {
   background-image: url("../../brandStyles/images/navLogos/pieGallery.png");
+  background-size: 7vh auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#photosHomeNavIcon {
+  background-image: url("../../brandStyles/images/navLogos/piePhotos.png");
   background-size: 7vh auto;
   background-repeat: no-repeat;
   background-position: center;
