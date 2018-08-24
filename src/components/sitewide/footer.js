@@ -20,7 +20,8 @@ export class Footer extends Component {
                 <li><a href="/">home</a></li>
                 <li><a href="/bio">bio</a></li>
                 <li><a href="/music">music</a></li>
-                <li><a href="/gallery">gallery</a></li>
+                <li><a href="/photos">photos</a></li>
+                <li><a href="/videos">videos</a></li>
                 <li><a href="/blog">blog</a></li>
                 <li><a href="/merch">merch</a></li>
                 <li><a href="/press">press</a></li>

@@ -5,6 +5,7 @@ import epkInsta from "../../brandStyles/images/epk/epkIcons/instaEPK.png"
 import epkTweet from "../../brandStyles/images/epk/epkIcons/tweetEPK.png"
 import epkFB from "../../brandStyles/images/epk/epkIcons/fbEPK.png"
 import epkEmail from "../../brandStyles/images/epk/epkIcons/emailEPK.png"
+import epkPNG from "../../brandStyles/images/epk/EPK.png"
 
 export class EPKDoc extends Component {
     state = {
@@ -22,6 +23,8 @@ export class EPKDoc extends Component {
         return (
           <div className="inverseBlog container-fluid relativeContainer">
             <h2 className="title inverse headerGap">Electronic Press Kit</h2>
+            <br/>
+            <a href={epkPNG} download><button className="epkBtn">Download EPK</button></a>
             <div className="row">
               <div className="col-xs-12 col-md-12">
                 <div id="epkBigBody">
