@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import ReactHowler from 'react-howler'
 import "./albums.css"
 import firstImg from "../../../brandStyles/images/albums/first.jpg"
-import trackOne from "../../../brandStyles/sounds/First/fuckyouimpretty.wav"
-import trackTwo from "../../../brandStyles/sounds/First/getonthefloor.wav"
-import trackThree from "../../../brandStyles/sounds/First/ohpiss.wav"
-import trackFour from "../../../brandStyles/sounds/First/theruns.wav"
+import trackOne from "../../../brandStyles/sounds/First/fuckyouimpretty.mp3"
+import trackTwo from "../../../brandStyles/sounds/First/getonthefloor.mp3"
+import trackThree from "../../../brandStyles/sounds/First/ohpiss.mp3"
+import trackFour from "../../../brandStyles/sounds/First/theruns.mp3"
 import playImg from "../../../brandStyles/images/playImg.png"
 import pauseImg from "../../../brandStyles/images/pauseImg.png"
 
