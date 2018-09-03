@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import ReactHowler from 'react-howler'
 import "./albums.css"
 import firstImg from "../../../brandStyles/images/albums/first.jpg"
-import trackOne from "../../../brandStyles/sounds/firstTracks/01.mp3"
-import trackTwo from "../../../brandStyles/sounds/firstTracks/02.mp3"
-import trackThree from "../../../brandStyles/sounds/firstTracks/03.mp3"
-import trackFour from "../../../brandStyles/sounds/firstTracks/04.mp3"
+import trackOne from "../../../brandStyles/sounds/First/fuckyouimpretty.wav"
+import trackTwo from "../../../brandStyles/sounds/First/getonthefloor.wav"
+import trackThree from "../../../brandStyles/sounds/First/ohpiss.wav"
+import trackFour from "../../../brandStyles/sounds/First/theruns.wav"
 import playImg from "../../../brandStyles/images/playImg.png"
 import pauseImg from "../../../brandStyles/images/pauseImg.png"
 
@@ -77,7 +77,7 @@ export class FirstAlbum extends Component {
                   <p className="album album-list">First</p>
                   <p className="artist">Pie Face Girls</p>
                   <div className="voffset20"></div>
-                  <p className="description">some sort of album bio type info here.  release year, some notes on it, w/e or nothing really </p>
+                  <p className="description">Self-Released <br/>February 20, 2014</p>
                   <p className="buyalbum">
                     <a href="https://www.apple.com/itunes/?cid=OAS-US-DOMAINS-itunes.com" className="btn square inverse icon">buy album</a>
                   </p>

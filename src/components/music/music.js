@@ -3,6 +3,7 @@ import "./music.css"
 import firstImg from "../../brandStyles/images/albums/first.jpg"
 import formativeYearsImg from "../../brandStyles/images/albums/formativeYears.jpg"
 import {FirstAlbum} from "./albums"
+import {FormativeAlbum} from "./albums"
 
 
 export class MusicSect extends Component {
@@ -39,7 +40,7 @@ export class MusicSect extends Component {
           <FirstAlbum />
         } else if (audioState === "formative") {
           audioPlayerJSX =
-          <p> formative </p>
+          <FormativeAlbum />
         } else {
           audioPlayerJSX =
           <div></div>
