@@ -2056,10 +2056,6 @@ h2.title:after {
 }
 
 .biography .biography-image {
-  background: #000 url("../images/demo/biography/about.jpg") no-repeat center;
-}
-
-.biography .biography-image {
   background-size: cover !important;
   background-position: center center !important;
   display: block;
@@ -2075,7 +2071,6 @@ h2.title:after {
 }
 
 .next-show {
-  background: #FFF url("../images/demo/next-show/next-shows.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -4515,9 +4510,6 @@ form.newsletter-form .form-group {
   color: #fff;
 }
 
-.record-label .biography .biography-image {
-  background: #141e29 url(../images/demo/biography/aboutlabel.jpg) no-repeat center;
-}
 
 .record-label .btn.square.inverse {
   background-color: transparent;
@@ -4856,89 +4848,3 @@ img {
   background: url("../images/demo/multi-pages/home/bg.jpg") no-repeat center;
   background-size: cover !important;
 } */
-
-.bg-header.home.dark {
-  background: url("../images/demo/multi-pages/dark-version/home/bg.jpg") no-repeat center;
-}
-
-.bg-header.home.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/home/bg.jpg") no-repeat center;
-}
-
-.bg-header.discography {
-  background: url("../images/demo/multi-pages/discography/bg.jpg") no-repeat center;
-  background-size: cover !important;
-}
-
-.bg-header.discography.dark {
-  background: url("../images/demo/multi-pages/dark-version/discography/bg.jpg") no-repeat center;
-}
-
-.bg-header.discography.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/discography/bg.jpg") no-repeat center;
-}
-
-.bg-header.about {
-  background: url("../images/demo/multi-pages/about/bg.jpg") no-repeat center;
-  background-size: cover !important;
-}
-
-.bg-header.about.dark {
-  background: url("../images/demo/multi-pages/dark-version/about/bg.jpg") no-repeat center;
-}
-
-.bg-header.about.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/about/bg.jpg") no-repeat center;
-}
-
-.bg-header.tour-dates {
-  background: url("../images/demo/multi-pages/tour-dates/bg.jpg") no-repeat center;
-  background-size: cover !important;
-}
-
-.bg-header.tour-dates.dark {
-  background: url("../images/demo/multi-pages/dark-version/tour-dates/bg.jpg") no-repeat center;
-}
-
-.bg-header.tour-dates.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/tour-dates/bg.jpg") no-repeat center;
-}
-
-.bg-header.gallery {
-  background: url("../images/demo/multi-pages/gallery/bg.jpg") no-repeat center;
-  background-size: cover !important;
-}
-
-.bg-header.gallery.dark {
-  background: url("../images/demo/multi-pages/dark-version/gallery/bg.jpg") no-repeat center;
-}
-
-.bg-header.gallery.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/gallery/bg.jpg") no-repeat center;
-}
-
-.bg-header.news {
-  background: url("../images/demo/multi-pages/news/bg.jpg") no-repeat center;
-  background-size: cover !important;
-}
-
-.bg-header.news.dark {
-  background: url("../images/demo/multi-pages/dark-version/news/bg.jpg") no-repeat center;
-}
-
-.bg-header.news.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/news/bg.jpg") no-repeat center;
-}
-
-.bg-header.contact {
-  background: url("../images/demo/multi-pages/contact/bg.jpg") no-repeat center;
-  background-size: cover !important;
-}
-
-.bg-header.contact.dark {
-  background: url("../images/demo/multi-pages/dark-version/contact/bg.jpg") no-repeat center;
-}
-
-.bg-header.contact.header-slider {
-  background: url("../images/demo/multi-pages/header-slider/contact/bg.jpg") no-repeat center;
-}

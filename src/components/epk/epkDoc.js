@@ -60,7 +60,7 @@ export class EPKDoc extends Component {
                       </a>
                     </div>
                     <div className="playedWithBlock">
-                      <h3 className="playedWithHeader">Played With/Opened For</h3>
+                      <h3 className="playedWithHeader">We've Played With:</h3>
                       <p className="playedWithText">
                         The Descendents ° Talib Kweli ° Cherry Glazerr ° Shannon and the Clams ° The Coat Hangers ° Mykki Blanco ° Downtown Boys ° The Worriers ° Priests ° Shilpa Ray ° Chain and the Gang °  Pale Hound ° Birds of Avalon ° Zack Mexico ° ZenSoFly
                       </p>

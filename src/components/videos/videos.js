@@ -4,16 +4,12 @@ import Modal from 'react-modal';
 import "../../../node_modules/react-modal-video/scss/modal-video.scss"
 import "./videos.css";
 
-import vid1Scrn from "../../brandStyles/images/gallery/pie1sm.jpeg"
-import vid2Scrn from "../../brandStyles/images/gallery/pie2sm.jpg"
-import vid3Scrn from "../../brandStyles/images/gallery/pie3sm.jpg"
-import vid4Scrn from "../../brandStyles/images/gallery/pie4sm.jpg"
-import vid5Scrn from "../../brandStyles/images/gallery/pie5sm.jpg"
-import vid6Scrn from "../../brandStyles/images/gallery/pie6sm.jpg"
-import vid7Scrn from "../../brandStyles/images/gallery/pie7sm.jpg"
-import vid8Scrn from "../../brandStyles/images/gallery/pie8sm.jpg"
-import vid9Scrn from "../../brandStyles/images/gallery/pie9sm.jpg"
-import vid10Scrn from "../../brandStyles/images/gallery/pie10sm.jpg"
+import vid1Scrn from "../../brandStyles/images/gallery/pfg1sm.jpg"
+import vid2Scrn from "../../brandStyles/images/gallery/pfg2sm.jpg"
+import vid3Scrn from "../../brandStyles/images/gallery/pfg3sm.jpg"
+import vid4Scrn from "../../brandStyles/images/gallery/pfg4sm.jpg"
+import vid5Scrn from "../../brandStyles/images/gallery/pfg5sm.jpg"
+import vid6Scrn from "../../brandStyles/images/gallery/pfg6sm.jpg"
 import demoVid from "../../brandStyles/images/homeVideo.mp4"
 
 const videoArr = [
@@ -23,10 +19,6 @@ const videoArr = [
   {videoID: demoVid, screen: vid4Scrn, title: "Sample Title 4"},
   {videoID: demoVid, screen: vid5Scrn, title: "Sample Title 5"},
   {videoID: demoVid, screen: vid6Scrn, title: "Sample Title 6"},
-  {videoID: demoVid, screen: vid7Scrn, title: "Sample Title 7"},
-  {videoID: demoVid, screen: vid8Scrn, title: "Sample Title 8"},
-  {videoID: demoVid, screen: vid9Scrn, title: "Sample Title 9"},
-  {videoID: demoVid, screen: vid10Scrn, title: "Sample Title 10"},
 ]
 
 const customStyles = {

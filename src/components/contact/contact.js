@@ -25,25 +25,15 @@ export class ContactSect extends Component {
               </div>
               <div className="row no-gutter">
                 <div className="col-xs-12 col-md-3 text-center">
-                  <h2 className="title-follow">MGMT</h2>
-                  <div className="voffset40"></div>
-                  <hr className="hidden-xs" />
-                  <div className="voffset40"></div>
-                  <p className="name">Dani Hoffpair</p>
-                  <p className="phone"><a href="tel:+1-456-768-9864">T+1-234-567-8910</a></p>
-                  <p className="email"><a href="mailto:mgtm@music.com">mgtm@pfg.com</a></p>
-                  <div className="voffset40"></div>
-
-                  <hr className="hidden-xs"/>
                 </div>
                 <div className="col-xs-12 col-md-3 text-center">
                   <h2 className="title-follow">BOOKING</h2>
                   <div className="voffset40"></div>
                   <hr className="hidden-xs"/>
                   <div className="voffset40"></div>
-                  <p className="name">Tiffany Huff</p>
-                  <p className="phone"><a href="tel:+1-456-768-9864">T+1-234-567-8910</a></p>
-                  <p className="email"><a href="mailto:booking@music.com">booking@pfg.com</a></p>
+                  <p className="name"><br/></p>
+                  <p className="phone"><br/></p>
+                  <p className="email"><a href="mailto:Piefacegirls@gmail.com">Piefacegirls@gmail.com</a></p>
                   <div className="voffset40"></div>
                   <hr className="hidden-xs"/>
                 </div>
@@ -52,22 +42,13 @@ export class ContactSect extends Component {
                   <div className="voffset40"></div>
                   <hr className="hidden-xs"/>
                   <div className="voffset40"></div>
-                  <p className="name">Lee Pressguy</p>
-                  <p className="phone"><a href="tel:+1-456-768-9864">T+1-234-567-8910</a></p>
-                  <p className="email"><a href="mailto:press@music.com">press@pfg.com</a></p>
+                  <p className="name">Lee Elliot</p>
+                  <p className="phone">Unicursal PR</p>
+                  <p className="email"><a href="mailto:unicursalpr@gmail.com">Unicursalpr@gmail.com</a></p>
                   <div className="voffset40"></div>
                   <hr className="hidden-xs"/>
                 </div>
                 <div className="col-xs-12 col-md-3 text-center">
-                  <h2 className="title-follow">info</h2>
-                  <div className="voffset40"></div>
-                  <hr className="hidden-xs"/>
-                  <div className="voffset40"></div>
-                  <p className="name">Klay Misenheimer</p>
-                  <p className="phone"><a href="tel:+1-456-768-9864">T+1-234-567-8910</a></p>
-                  <p className="email"><a href="mailto:info@music.com">info@pfg.com</a></p>
-                  <div className="voffset40"></div>
-                  <hr className="hidden-xs"/>
                 </div>
               </div>
               <div className="voffset80"></div>
