@@ -1,9 +1,10 @@
 .tallNav {
-  height:15vh !important;
+  height:12vh !important;
+  border-bottom: 0em !important;
 }
 
 .tallNav2 {
-  height:15vh !important;
+  height:12vh !important;
   margin-top:.5vh !important;
   margin-bottom:.5vh !important;
 }
@@ -28,7 +29,7 @@
   float: none !important;
   font-weight: bold !important;
   color: black !important;
-  height:15vh !important;
+  height:10vh !important;
   margin: 0px !important;
 }
 
@@ -55,8 +56,8 @@
 }
 
 .iconImages {
-  height:14vh;
-  width:14vh !important;
+  height:12vh;
+  width:12vh !important;
   max-width: 14vh !important;
   margin-top: 0px !important;
 }
