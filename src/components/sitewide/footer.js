@@ -14,7 +14,7 @@ export class Footer extends Component {
     render() {
         return (
           <footer>
-            <div className="container">
+            <div className="container footieCont">
               <p className="copy">© 2018. All Rights Reserved.</p>
               <ul className="menu-footer">
                 <li><a href="/">home</a></li>

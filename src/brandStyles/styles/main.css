@@ -1,3 +1,13 @@
+@font-face {
+  font-family: headerPFGFont;
+  src: url(../fonts/headerPFG.ttf);
+}
+
+@font-face {
+  font-family: headerPFGFont2;
+  src: url(../fonts//pfgHeader2.ttf)
+}
+
 [data-aspect-ratio] {
   position: relative;
   overflow: hidden;
@@ -915,7 +925,7 @@ textarea {
 }
 
 title {
-font-family: 'Anton', sans-serif;
+font-family: headerPFGFont;
 font-weight: 400;
 text-transform: uppercase;
 text-align: center;
@@ -1879,14 +1889,14 @@ p.quote-post {
 
 h2.title {
   margin: auto;
-  font-family: 'Anton', sans-serif;
+  font-family: headerPFGFont;
   font-weight: 400;
   text-transform: uppercase;
   text-align: center;
   /*letter-spacing: 8.5px;*/
   color: #000;
-  font-size: 52px;
-  line-height: 52px;
+  font-size: 44px;
+  line-height: 44px;
   display: inline-block;
 }
 
@@ -2253,7 +2263,7 @@ h2.title:after {
 
 .upcomming-events-list li .date-event span {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  color: black;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 400;
@@ -2261,7 +2271,7 @@ h2.title:after {
 }
 
 .upcomming-events-list li .name {
-  color: #afafaf;
+  color: black;
   font-size: 15px;
   line-height: 22px;
   padding: 16px 35px;
@@ -2381,12 +2391,12 @@ h2.title:after {
 }
 
 .upcomming-events-list-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: headerPFGFont;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: black;
   padding: 80px 0 42px;
-  font-size: 26px;
+  font-size: 30px;
   line-height: normal;
   font-weight: 900;
 }
@@ -2411,7 +2421,7 @@ h2.title:after {
 
 .upcomming-events-list-title {
   text-align: center;
-  color: #ffffff;
+  color: black;
   padding: 58px 0 42px;
   font-size: 26px;
   line-height: normal;
@@ -2419,7 +2429,7 @@ h2.title:after {
 }
 
 .upcomming-events-list li p span {
-  color: #FFF;
+  color: black;
 }
 
 .upcomming-events-list li .name {
@@ -2427,7 +2437,7 @@ h2.title:after {
 }
 
 .upcomming-events-list li .date-event {
-  border-left: 2px solid #fff;
+  border-left: 2px solid black;
 }
 
 .upcomming-events-list li .venue {

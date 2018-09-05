@@ -5,3 +5,8 @@
   align-items: stretch !important;
   margin-bottom: 10vh !important;
 }
+
+.socialIcons {
+  width:6vw;
+  height:6vw;
+}

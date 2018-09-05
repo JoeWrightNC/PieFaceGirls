@@ -88,3 +88,8 @@
   margin-top:1.5vh !important;
   opacity: .7;
 }
+
+.footieCont {
+  font-family: headerPFGFont2;
+  color:white !important;
+}

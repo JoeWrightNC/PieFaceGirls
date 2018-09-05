@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./social.css";
-import fbLogo from "../../brandStyles/images/logo01.png"
-import instaLogo from "../../brandStyles/images/logo02.png"
-import twLogo from "../../brandStyles/images/logo04.png"
+import fbLogo from "../../brandStyles/images/socialIcons/fbPFG.png"
+import instaLogo from "../../brandStyles/images/socialIcons/instaPFG.png"
+import twLogo from "../../brandStyles/images/socialIcons/tweetPFG.png"
 export class SocialBar extends Component {
     state = {
     };
@@ -14,9 +14,9 @@ export class SocialBar extends Component {
     render() {
         return (
           <div className="row social socialBar">
-            <a href="https://www.facebook.com/piefacegirls/"><img src={fbLogo} alt="logo01"/></a>
-            <a href="https://www.instagram.com/piefacegirls/"><img src={instaLogo} alt="logo02"/></a>
-            <a href="https://twitter.com/piefacegirls?lang=en"><img src={twLogo} alt="logo04"/></a>
+            <a href="https://www.facebook.com/piefacegirls/"><img src={fbLogo} alt="logo01" className="socialIcons"/></a>
+            <a href="https://www.instagram.com/piefacegirls/"><img src={instaLogo} alt="logo02" className="socialIcons"/></a>
+            <a href="https://twitter.com/piefacegirls?lang=en"><img src={twLogo} alt="logo04" className="socialIcons"/></a>
           </div>
         );
     }

@@ -37,7 +37,7 @@ export class HomeDates extends Component {
 
     render() {
         return (
-            <div className="row eventsRow upcomming-events-list inverse-color">
+            <div className="row eventsRow upcomming-events-list">
               <div className="col-md-2"></div>
               <div className="col-md-8">
                 <h4 className="upcomming-events-list-title montserrat extra-bold">upcoming events</h4>

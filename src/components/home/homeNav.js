@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./home.css";
-
+import homeIcon from "../../brandStyles/images/navLogos/homeIcon.png"
+import {HomeIcon} from "./homeIconJSFiles/homeIcon"
+import {Trigger} from "./homeIconJSFiles/trigger"
 
 
 export class HomeNav extends Component {
@@ -26,7 +28,13 @@ export class HomeNav extends Component {
       
             <div className="collapse navbar-collapse navbar-ex1-collapse tallNav2" id="navbar-muziq">
               <ul className="nav navbar-nav navHomeFlex">
-                <li id="homeHomeNavIcon"><a className="whiteNavBG" href="/">HOME</a></li>
+                <li>
+                  <a className="whiteNavBG" href="/">
+                    <Trigger>
+                      <HomeIcon><img src={homeIcon} alt="homeIcon" className="iconImages"/></HomeIcon>
+                    </Trigger>
+                  </a>
+                </li>
                 <li id="bioHomeNavIcon"><a className="whiteNavBG" href="/bio">BIO</a></li>
                 <li id="musicHomeNavIcon"><a className="whiteNavBG" href="/music">MUSIC</a></li>
                 <li id="photosHomeNavIcon"><a className="whiteNavBGMain" href="/photos">PHOTOS</a></li>

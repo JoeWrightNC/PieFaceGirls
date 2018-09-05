@@ -1,11 +1,11 @@
-
 .tallNav {
-  height:10vh !important;
+  height:15vh !important;
 }
 
 .tallNav2 {
-  height:8vh !important;
-  margin-top:1vh !important;
+  height:15vh !important;
+  margin-top:.5vh !important;
+  margin-bottom:.5vh !important;
 }
 
 #HomePlayer {
@@ -28,16 +28,44 @@
   float: none !important;
   font-weight: bold !important;
   color: black !important;
-  height:7vh !important;
+  height:15vh !important;
   margin: 0px !important;
 }
 
-#homeHomeNavIcon {
-  background-image: url("../../brandStyles/images/navLogos/pieHome.png");
-  background-size: 7vh auto;
-  background-repeat: no-repeat;
-  background-position: center;
+.whiteNavBG {
+  height:auto;
+  width: auto;
+  padding: 0px !important;
 }
+
+#homeTitle {
+  width:40vw;
+  height:auto;
+  position: absolute;
+  top: 5vh;
+  left:30vw;
+  z-index:100000;
+}
+
+#unmuteButton {
+  position: absolute;
+  top: 35vh;
+  right:5vw;
+  z-index:100001;
+}
+
+.iconImages {
+  height:14vh;
+  width:14vh !important;
+  max-width: 14vh !important;
+  margin-top: 0px !important;
+}
+
+
+
+
+
+ 
 
 #bioHomeNavIcon {
   background-image: url("../../brandStyles/images/navLogos/pieBio.png");
@@ -100,29 +128,4 @@
   background-size: 7vh auto;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.whiteNavBG {
-  background-color:white !important;
-  height:auto;
-  width: auto;
-  padding: 0px !important;
-  margin-top:1.5vh !important;
-  opacity: .7;
-}
-
-#homeTitle {
-  width:40vw;
-  height:auto;
-  position: absolute;
-  top: 5vh;
-  left:30vw;
-  z-index:100000;
-}
-
-#unmuteButton {
-  position: absolute;
-  top: 35vh;
-  right:5vw;
-  z-index:100001;
 }
