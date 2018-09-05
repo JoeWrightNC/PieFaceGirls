@@ -6,6 +6,12 @@ import bioIcon from "../../brandStyles/images/navLogos/bioIcon.png"
 import {BioIcon} from "./homeIconJSFiles/bioIcon"
 import musicIcon from "../../brandStyles/images/navLogos/musicIcon.png"
 import {MusicIcon} from "./homeIconJSFiles/musicIcon"
+import photosIcon from "../../brandStyles/images/navLogos/photosIcon.png"
+import {PhotosIcon} from "./homeIconJSFiles/photosIcon"
+import videosIcon from "../../brandStyles/images/navLogos/videosIcon.png"
+import {VideosIcon} from "./homeIconJSFiles/videosIcon"
+import blogIcon from "../../brandStyles/images/navLogos/blogIcon.png"
+import {BlogIcon} from "./homeIconJSFiles/blogIcon"
 import {Trigger} from "./homeIconJSFiles/trigger"
 
 
@@ -40,22 +46,40 @@ export class HomeNav extends Component {
                   </a>
                 </li>
                 <li>
-                  <a className="whiteNavBG" href="/">
+                  <a className="whiteNavBG" href="/bio">
                     <Trigger>
                       <BioIcon><img src={bioIcon} alt="homeIcon" className="iconImages"/></BioIcon>
                     </Trigger>
                   </a>
                 </li>
                 <li>
-                  <a className="whiteNavBG" href="/">
+                  <a className="whiteNavBG" href="/music">
                     <Trigger>
                       <MusicIcon><img src={musicIcon} alt="homeIcon" className="iconImages"/></MusicIcon>
                     </Trigger>
                   </a>
                 </li>
-                <li id="photosHomeNavIcon"><a className="whiteNavBGMain" href="/photos">PHOTOS</a></li>
-                <li id="videosHomeNavIcon"><a className="whiteNavBGMain" href="/videos">VIDEOS</a></li>                
-                <li id="blogHomeNavIcon"><a className="whiteNavBG" href="/blog">BLOG</a></li>
+                <li>
+                  <a className="whiteNavBG" href="/photos">
+                    <Trigger>
+                      <PhotosIcon><img src={photosIcon} alt="photosIcon" className="iconImages"/></PhotosIcon>
+                    </Trigger>
+                  </a>
+                </li>
+                <li>
+                  <a className="whiteNavBG" href="/videos">
+                    <Trigger>
+                      <VideosIcon><img src={videosIcon} alt="photosIcon" className="iconImages"/></VideosIcon>
+                    </Trigger>
+                  </a>
+                </li>
+                <li>
+                  <a className="whiteNavBG" href="/blog">
+                    <Trigger>
+                      <BlogIcon><img src={blogIcon} alt="photosIcon" className="iconImages"/></BlogIcon>
+                    </Trigger>
+                  </a>
+                </li>
                 <li id="merchHomeNavIcon"><a className="whiteNavBG" href="/merch">MERCH</a></li>
                 <li id="pressHomeNavIcon"><a className="whiteNavBG" href="/press">PRESS</a></li>
                 <li id="epkHomeNavIcon"><a className="whiteNavBG" href="/epk">EPK</a></li>
